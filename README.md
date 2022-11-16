@@ -154,5 +154,6 @@ ubunto@ubuntu:~/Bureau/simple_shell$
 No known Bugs.
 
 ## contributors
+
 - CodeWithSegNet
 - HasimKaliq
