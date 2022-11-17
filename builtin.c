@@ -42,7 +42,7 @@ int _mycd(info_t *info)
 
 	s = getcwd(buffer, 1024);
 	if (!s)
-		_puts("TODO: >>getcwd failure emsg here<<\n");
+		_puts("Error: The file or path your trying to access doesn't exist.\n");
 	if (!info->argv[1])
 	{
 		dir = _getenv(info, "HOME=");
