@@ -24,7 +24,6 @@ char *_strcpy(char *dest, char *src)
 /**
  * _strdup - duplicates a string
  * @str: the string to duplicate
- *
  * Return: pointer to the duplicated string
  */
 char *_strdup(const char *str)
@@ -47,7 +46,6 @@ char *_strdup(const char *str)
 /**
  *_puts - prints an input string
  *@str: the string to be printed
- *
  * Return: Nothing.
  */
 void _puts(char *str)

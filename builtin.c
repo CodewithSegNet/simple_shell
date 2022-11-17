@@ -33,7 +33,7 @@ int _myexit(info_t *info)
  * _mycd - changes the current directory of the process
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
- *  Return: Always 0
+ *  Return: Always 0.
  */
 int _mycd(info_t *info)
 {
@@ -42,7 +42,7 @@ int _mycd(info_t *info)
 
 	s = getcwd(buffer, 1024);
 	if (!s)
-		_puts("Error: The file or path your trying to access doesn't exist.\n");
+		_puts("Error: File or path doesn't exist.\n");
 	if (!info->argv[1])
 	{
 		dir = _getenv(info, "HOME=");
