@@ -3,7 +3,7 @@
 /**
  * interactive - returns true if shell is interactive mode
  * @info: struct address
- * Return: 1 if interactive mode, 0 otherwise
+ * Return: 1 if interactive mode, 0 otherwise.
  */
 int interactive(info_t *info)
 {
@@ -15,7 +15,7 @@ int interactive(info_t *info)
  * @c: the char to check
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
- * a delimiter is a character that seperates text
+ * a delimiter is a character that seperates text.
  */
 int is_delim(char c, char *delim)
 {
@@ -28,7 +28,7 @@ int is_delim(char c, char *delim)
 /**
  *_isalpha - checks for alphabetic character
  *@c: The character to input
- *Return: 1 if c is alphabetic, 0 otherwise
+ *Return: 1 if c is alphabetic, 0 otherwise.
  */
 
 int _isalpha(int c)
