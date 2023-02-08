@@ -155,5 +155,5 @@ No known Bugs.
 
 ## contributors
 
-- CodeWithSegNet
-- HasimKaliq
+- CodeWithSegNet (https://github.com/codewithsegnet/simpl_shell/)
+- HasimKaliq  (https://github.com/HasimKaliq/simpl_shell/)
